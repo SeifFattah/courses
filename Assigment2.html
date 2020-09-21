@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assigment Solution</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
+p {
+  border: 1px solid black;
+  background-color: #AAAAAA;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+
+
+}
+span{
+	text-align: center;
+	float: right;
+	width: 20%;
+    height: 18%;
+	border: 1px solid black;
+	background: red;	
+	text-transform: capitalize;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 33.3%;
+  }
+  .col-lg-2 {
+    width: 33.3%;
+  }
+  .col-lg-3 {
+    width: 33.3%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 50%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+
+}
+
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div class="row">
+  <div class="col-lg-3 col-md-1"><p><span >coding</span>Computer coding is the use of computer programming languages to give computers and machines instructions on </p></div>
+  <div class="col-lg-3 col-md-2"><p><span>run</span>what actions to perform. It is the way humans communicate with machines,</p></div>
+  <div class="col-lg-3 col-md-3"><p><span>install</span>and it allows us to create software like programs, operating systems, and mobile apps.</p></div>
+
+</div>
+
+</body>
+</html>
